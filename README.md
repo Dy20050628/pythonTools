@@ -13,8 +13,8 @@
 > 1. language，默认为中文,language="English"可切换为英文
 > 2. mdCountCode：(True/False)是否统计代码，默认为False
 ```python
-from countFile import countFile
-countFile(".",["md"])
+from mdcount.countFile import countFile
+countFile("../MDCount", ["md"])
 ```
 
 ## 目前版本
@@ -41,8 +41,8 @@ Currently only supports Markdown (.md) and plain text (.txt) files.
 > 1. language, defaults to Chinese. Use language="English" to switch to English output.
 > 2. is count code(True/False)? , defaults to False.
 ~~~python
-from countFile import countFile
-countFile(".", ["md"])
+from mdcount.countFile import countFile
+countFile("../MDCount", ["md"])
 ~~~
 
 ## Current Version
